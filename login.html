@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Project</title>
+	<link rel="stylesheet" type="text/css" href="public/stylesheets/style.css">
+</head>
+<body>
+	<h1>Welcome</h1>
+
+	<div id="container"> 
+
+	<form method="POST" action="/signup" id="signup">
+		<h2><strong>SignUp</strong></h2>
+		<div>
+			<label for="first_name">First Name</label>
+			<input type="text" name="First_name" id="First_name">
+		</div>
+		<div>
+			<label for="last_name">Last Name</label>
+			<input type="text" name="Last_name" id="Last_name">
+		</div>
+		<div>
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email">
+		</div>
+		<div>
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password">
+		</div>
+		<input type="submit" id="submit">
+	</form>
+
+	<form method="POST" action="/login" id="login">
+		<h2><strong>LogIn</strong></h2>
+		<div>
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email">
+		</div>
+		<div>
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password">
+		</div>
+		<input type="submit" id="submit">
+	</form>
+	</div>
+	<footer>June 15th, 2015</footer>
+</body>
+
+</html>
